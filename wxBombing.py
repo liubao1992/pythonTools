@@ -5,17 +5,27 @@ import time
 # from wxpy import *
 # import requests
 # from wechat_sender import Sender
+def get_news1():
+    # 获取txt文件数据(需要轰炸的信息，一行一条)
+    file = open("1.txt",encoding='utf-8')  #
+    getFile = file.read()
+    #result = getFile.splitlines()
+    return getFile
+
+
+
 def autoclick():
-    contents = """ 
-        zhe
-        shi 
-        yi
-        ge
-        ce
-        shi 
-        chen
-        xu
-        """
+    # contents = """ 
+    #     zhe
+    #     shi 
+    #     yi
+    #     ge
+    #     ce
+    #     shi 
+    #     chen
+    #     xu
+    #     """
+    contents = get_news1()
     for line in contents.split("\n"):
         if line:
             print(line)
@@ -31,12 +41,7 @@ autoclick()
 
 # bot = Bot(cache_path=True)#登录微信，扫一下弹出来的二维码然后同意即可
 
-# def get_news1():
-#     # 获取txt文件数据(需要轰炸的信息，一行一条)
-#     file = open("1.txt")  #
-#     get = file.read()
-#     result = get.splitlines()
-#     return result
+
 
 # def send_news():
 #     try:
@@ -54,9 +59,3 @@ autoclick()
 #     time.sleep(5)
 #
 #     return 'Hello, World!'
-
-
-if __name__ == '__main__':
-    # message_text = get_news1()
-    # send_news()
-    app.run(port=5500, host='0.0.0.0', debug=True)
