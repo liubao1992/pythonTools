@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78ed6c54-436d-4506-8df8-11cc18d13489" name="默认的" comment="">
+    <list default="true" id="c1cf195e-6bdc-423b-98f0-fdddb267e203" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy_install.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.1.dist-info/INSTALLER" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-20.1.1.dist-info/LICENSE.txt" afterDir="false" />
@@ -504,7 +507,10 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectId" id="1u7EOm6WQnNREx8djdDqNsNJZlJ" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1uhaRAx3I7e5VmXXSbMmGJsYpcH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -519,11 +525,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="78ed6c54-436d-4506-8df8-11cc18d13489" name="默认的" comment="" />
-      <created>1624008197547</created>
+      <changelist id="c1cf195e-6bdc-423b-98f0-fdddb267e203" name="默认的" comment="" />
+      <created>1625120265714</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1624008197547</updated>
+      <updated>1625120265714</updated>
     </task>
     <servers />
   </component>
